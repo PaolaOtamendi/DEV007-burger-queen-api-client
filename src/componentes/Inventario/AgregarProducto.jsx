@@ -37,7 +37,7 @@ const AgregarProducto = ({ onSaveChanges }) => {
         value={type}
         onChange={(e) => setType(e.target.value)}
       >
-        <option className="opcion" disabled selected>
+        <option className="opcion">
           ELIGE EL TIPO DE COMIDA
         </option>
         <option className="opcion">Desayuno</option>
